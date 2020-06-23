@@ -10,7 +10,7 @@ The idea of the camera course is to build a collision detection system - that's 
 * In the last part, once the code framework is complete, you will test the various algorithms in different combinations and compare them with regard to some performance measures. 
 
 
-# Results and explanation
+#### Results and explanation
 The time it takes for keypoint detection and descriptor extraction for each detector/descriptor combination are logged in the excel file `Camera_Assignment_Result.xlsx`. First, I collected the number of keypoints for each detector and each image and the time it takes. Then the time it takes for matching keypoints. Finally, the time for descriptor extraction. 
 
 The used criteria for picking the detctor/descriptor combination is the total mean processing time per image. The total mean time is the sum of keypoints detection time per image, keypoints matching time per image and descriptor extraction time per image.
